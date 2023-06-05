@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+html,
+body {
+    height: 100%;
+}
+ 
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+img {
+    height: auto;
+}
+ 
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+}
+ 
+button {
+    border: none;
+    cursor: pointer;
+}
+ 
+ 
+textarea {
+    resize: vertical;
+}
+ 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.navi {
+    position: relative;
+    background-color: #002f34;
+    padding: 0 2.4rem;
+    font-size: 1.6rem;
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        h1 {
+            .rebrandedO {
+                position: absolute;
+                left: 0;
+                top: 0;
+                transform: translate(12px, 15px);
+                content: '';
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                box-shadow: 0 0 0 12px #24e5db;
+            }
+            .rebrandedL {
+                position: absolute;
+                left: 37px;
+                top: 0;
+                width: 10px;
+                bottom: 0;
+                background: #23e5db;
+            }
+            .rebrandedX {
+                width: 20px;
+                height: 20px;
+                overflow: hidden;
+                display: block;
+                position: absolute;
+                left: 42px;
+                top: 0;
+                transform: translate(51px, 10px);
+            }
+        }
+        ul > li {
+            display: block;
+            
+            float:left;
+            margin: 20px;
+            list-style: none;
+
+
+          }
+        }
+        
+    }
