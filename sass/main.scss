@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+    background-image: url('https://advertisingpol.wpengine.com/wp-content/uploads/2023/04/jula_logo_main_rgb.svg');
 }
  
 html {
@@ -54,36 +55,11 @@ table {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        h1 {
-            .rebrandedO {
-                position: absolute;
-                left: 0;
-                top: 0;
-                transform: translate(12px, 15px);
-                content: '';
-                border-radius: 50%;
-                width: 10px;
-                height: 10px;
-                box-shadow: 0 0 0 12px #24e5db;
-            }
-            .rebrandedL {
-                position: absolute;
-                left: 37px;
-                top: 0;
-                width: 10px;
-                bottom: 0;
-                background: #23e5db;
-            }
-            .rebrandedX {
-                width: 20px;
-                height: 20px;
-                overflow: hidden;
-                display: block;
-                position: absolute;
-                left: 42px;
-                top: 0;
-                transform: translate(51px, 10px);
-            }
+        .headerLogo {
+            position: absolute;
+            background-image: url('https://a.allegroimg.com/original/1e77d5/f7d4366341238ae84c66a7ede960');
+            
+        }
         }
         ul > li {
             display: block;
@@ -96,4 +72,4 @@ table {
           }
         }
         
-    }
+    
