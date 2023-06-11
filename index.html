@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Łukasz Szerszyński"
+    <meta name="author" content="Łukasz Szerszyński">
     <title>OlxCopy</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
@@ -14,42 +14,18 @@
 <body>
     <div class="navi">
         <div class="wrapper">
-            <div><a href="https://www.olx.pl" id="headerLogo" class="headerLogo" title="Ogłoszenia - Sprzedam, kupię na OLX.pl">
-               
-            </a></div>
+            <div><a href="https://www.olx.pl" id="headerLogo" title="Ogłoszenia - Sprzedam, kupię na OLX.pl">
+               <img class="headerLogo" src="./img/OlxLogo.jpg" alt="logo olx"></a></div>
             <ul class="userBox">
-                <li id="navMessage"><a href="https://www.olx.pl/mojolx/wiadomosci/" title="wiadomosci" ><i class="fa-regular fa-comment"></i><span class="ulListTextPosition">Wiadmomości</span></li></a>
-                <li id="navObserved"><a href="https://www.olx.pl/obserwowane/" title="obserwowane"><i class="fa-regular fa-heart"></i></li></a>
-                <li id="navMyAccountLink"><a href="https://www.olx.pl/mojolx/"><i class="fa-regular fa-user"></i><span class="ulListTextPosition">Twoje Konto</span></li></a>
+                <li id="navMessage" class="navBox"><a href="https://www.olx.pl/mojolx/wiadomosci/" title="wiadomosci" ><i class="fa-regular fa-comment"></i><span class="ulListTextPosition">Wiadmomości</span></li></a>
+                <li id="navObserved" class="navBox"><a href="https://www.olx.pl/obserwowane/" title="obserwowane"><i class="fa-regular fa-heart"></i></li></a>
+                <li id="navMyAccountLink" class="navBox"><a href="https://www.olx.pl/mojolx/"><i class="fa-regular fa-user"></i><span class="ulListTextPosition">Twoje Konto</span></li></a>
                 
             </ul>
-            <a id="postNewAdLink" href="https://www.olx.pl/d/nowe-ogloszenie/?bs=homepage_adding"><span>Dodaj Ogłoszenie</span></a>
+            <a id="postNewAdLink" class="addNewPost" href="https://www.olx.pl/d/nowe-ogloszenie/?bs=homepage_adding"><span>Dodaj Ogłoszenie</span></a>
         </div>
     </div>
-   <section style="width: 1077px; margin-left: auto;margin-right: auto;z-index: 20;position: relative;box-shadow: rgba(0, 47, 52, 0.1) 0px 0px 8px;background: rgb(242, 244, 245);">
-    <form class="searchmain" id="searchmain" method="POST" action="https://www.olx.pl/homepagesearch/"></form>
-    <div class="mainCategories">
-        <div class="wrapper">
-            <header>
-                <h3>Kategorie główne</h3>
-            </header>
-            <div class="mainCategoriesList">
-                <div class="li fleft">
-                    <div class="item">
-                        <a href="https://www.olx.pl/antyki-i-kolekcje/" data-id="4042" class="link parent   ">
-                            <span>Antyki i Kolekcje</span>
-                            <span class="cat-icon cat-icon-circle cat-icon-4042 cat-cmt-icon-4042" style="background-color: rgb(255, 206, 50);"></span>
-                        </a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-      
-
-   </section>
-
+   
     
 </body>
 </html>
